@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CS/projects/C/SAT/head.h
+stdio.h
+D:/CS/projects/C/SAT/stdio.h
+math.h
+D:/CS/projects/C/SAT/math.h
+malloc.h
+D:/CS/projects/C/SAT/malloc.h
+stdlib.h
+D:/CS/projects/C/SAT/stdlib.h
+string.h
+D:/CS/projects/C/SAT/string.h
+time.h
+D:/CS/projects/C/SAT/time.h
+
+D:/CS/projects/C/SAT/main.c
+head.h
+D:/CS/projects/C/SAT/head.h
+

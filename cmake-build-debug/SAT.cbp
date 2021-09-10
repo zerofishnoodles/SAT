@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SAT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CS/projects/C/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAT">
+				<Option output="D:/CS/projects/C/SAT/cmake-build-debug/SAT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CS/projects/C/SAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAT"/>
+					<CompileFile command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAT/fast">
+				<Option output="D:/CS/projects/C/SAT/cmake-build-debug/SAT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CS/projects/C/SAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAT/fast"/>
+					<CompileFile command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CS/projects/C/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CS/projects/C/SAT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw64/bin/mingw32-make.exe -f &quot;D:/CS/projects/C/SAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CS/projects/C/SAT/cnf_parser.c">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/display.c">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/head.h">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/main.c">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/solver.c">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/sudoku.c">
+			<Option target="SAT"/>
+		</Unit>
+		<Unit filename="D:/CS/projects/C/SAT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

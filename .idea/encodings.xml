@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SAT测试备选算例/基准算例/功能测试/sat-20.cnf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cnf_parser.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/display.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/head.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/solver.c" charset="UTF-8" />
+  </component>
+</project>
